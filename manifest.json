@@ -3,6 +3,7 @@
   "keywords" : [ "remove", "delete", "without", "stroke", "border" ],
   "languages" : [ "en" ],
   "author" : "Jan Fluksa",
+  "helpUrl" : "https://github.com/janfluksa/xd-remove-border",
   "description" : "Get command CMD+Shift+B to remove border of selected objects",
   "main" : "main.js",
   "icons" : [ {
