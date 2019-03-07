@@ -1,0 +1,39 @@
+{
+  "summary" : "Remove Border Easy",
+  "keywords" : [ "remove", "delete", "without", "stroke", "border" ],
+  "languages" : [ "en" ],
+  "author" : "Jan Fluksa",
+  "description" : "Get command CMD+Shift+B to remove border of selected objects",
+  "main" : "main.js",
+  "icons" : [ {
+    "path" : "images/pluginIcon1.png",
+    "width" : 48,
+    "height" : 48
+  }, {
+    "path" : "images/pluginIcon2.png",
+    "width" : 96,
+    "height" : 96
+  }, {
+    "path" : "images/pluginIcon3.png",
+    "width" : 144,
+    "height" : 144
+  }, {
+    "path" : "images/pluginIcon4.png",
+    "width" : 192,
+    "height" : 192
+  } ],
+  "version" : "1.0.0",
+  "releaseNotes" : "Initial",
+  "name" : "Remove Border Easy",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0"
+  },
+  "id" : "e6895ecf",
+  "uiEntryPoints" : [ {
+    "label" : "Remove Border",
+    "type" : "menu",
+    "commandId" : "removeBorder",
+    "shortcut": { "mac": "Cmd+Shift+B", "win": "Ctrl+Shift+B" }
+  } ]
+}
