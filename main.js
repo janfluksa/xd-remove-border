@@ -9,7 +9,6 @@ function removeBorder (selection) {
     }
 
     for (let i=0;i<s.items.length;i++) {
-        s.items[i].strokeWidth = 0;
         s.items[i].strokeEnabled = false;
     }
 }
